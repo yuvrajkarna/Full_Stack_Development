@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-01</title>
+    <style>
+        input{
+            padding: 10;
+            margin: 0;
+            border-color: rgb(0, 0, 252);
+            background-color: rgb(252, 237, 250);
+        }
+        label{
+            margin: 0;
+            padding: 0;
+            font-size: large;
+        }
+        label.hover{
+            background: #e31717;
+        }
+    </style>
+</head>
+
+<body style="margin-left: 40%; font-size: large;">
+    <fieldset style="font-family: cursive; width: 360px; background-color: rgb(226, 251, 255); border-radius: 4%;">
+        <legend>Fill the details below:</legend>
+        <form >
+            <label for="textId">UserName:</label>
+            </br>
+            <input type="text" id="textId" placeholder="Yuvraj Karna" required autofocus>
+            </br>
+
+            <label for="telId">Mobile Number:</label>
+            </br>
+            <input type="tel" id="telId" placeholder="9999999999" maxlength="10" >
+            </br>
+
+            <label for="emailId">Email:</label>
+            </br>
+            <input type="email" id="emailId" placeholder="yuv@gmail.com" required autocomplete="off">
+            </br>
+
+            <label for="passwordId">Password:</label>
+            </br>   
+            <input type="password" id="passwordId" required>
+            </br>
+
+            <label for="dateId">DOB:</label>
+            </br>
+            <input type="date" id="dateId" readonly>
+            </br>
+
+            <label for="radioId">Gender:</label>
+            </br>
+            Male<input type="radio" id="radioId" name="gender">
+            Female<input type="radio" id="radioId" name="gender">
+            </br>
+
+            <label for="fileId">Add your Resume Here:</label>
+            </br>
+            <input type="file" id="fileId">
+            </br>
+
+            <label for="SelectId">Choose College:</label>
+            </br>
+            <select id="SelectId">
+                <option>--select--</option>
+                <option>1.AEC</option>
+                <option>2.AECT</option>
+                <option>3.ACET</option>
+            </select>
+            </br>
+
+            <label> Remarks:
+                </br>
+                <textarea rows="6" cols="40" style="font-family: cursive; border-radius: 4%; background-color: aqua;">
+                    Tell us your reviews...
+                </textarea>
+            </label>
+            </br>
+
+            
+            <label for="checkboxId">Agree our terms and conditions:</label>
+            <input type="checkbox" id="checkboxId">
+            </br>
+
+            <label for="colorId">Choose your favourite color:</label>
+            <input type="color" id="colorId" value="#fff">
+            <input type="color" id="colorId" value="rgb(0,255,0)">
+            </br>
+
+            <input type="submit" value="SUBMIT" style="margin-left: 42% ; margin-top: 5%; ">
+
+        </form>
+    </fieldset>
+</body>
+</html>
