@@ -1,0 +1,58 @@
+.parent{
+    background-color: #eef;
+    height: 20000px;
+    width: 1200px;
+}
+.name{
+    /* background-color: #eef; */
+    /* margin: 1%; */
+    width:  1198px;
+    height: 200px;
+    border-style: none;
+    border-bottom-style: dotted;
+}
+.name header{
+    padding-inline-end: 60%;
+    padding-top: 10%;
+    font-size: 60px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.navigation{
+    width:  1198px;
+    height: 50px;
+    border-bottom-style: dotted;
+    /* border-radius: 2px;
+    background-color: #eee; */
+}
+.navigation ol{
+    list-style-type: none;
+}
+.navigation ol li{
+    padding-left: 0%;
+    font-size: 21px;
+    font-weight: bold;
+    padding-inline-start: 10px;
+    display: inline-block;
+}
+
+.basic{
+    width:  1198px;
+    height: 1200px;
+    border-bottom-style: dotted;
+}
+.basic p{
+    text-align: left;
+}
+
+.Table_header{
+    margin: 0;
+    padding: 0;
+    padding-inline-end:90%;
+    font-size: 40px;
+    font-family: cursive;
+}
+.Table_01{
+    width: 1000px ;
+    height: 300px;
+}

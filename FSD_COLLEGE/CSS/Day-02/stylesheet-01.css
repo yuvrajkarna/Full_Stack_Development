@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(48, 48, 86); */
+}
+span{
+    
+    /* background-color: aquamarine; */
+    margin-left: 15%;
+    color: rgb(0, 0, 0);
+}
+.nav1{
+    border-bottom: 1px solid black;
+}
+ol{
+    list-style-type: none;
+}
+li{
+    padding-left: 5%;
+    font-size: 27px;
+    font-family: cursive;
+    display: inline-block;
+}
+li a{
+    /* This is to remove underline from <a> </a> tag. */
+    font-weight: bold;
+    text-decoration: none;
+}
+a[href]{
+    color: rgb(223, 31, 185);
+}
+
+li a::link{
+    background-color: black;
+}
+li::hover{
+    background-color: black;
+    color: blue;
+}
+
+.parent{
+    width: fit-content;
+    height: fit-content;
+    background-color: bisque;
+}
+.child1{
+
+    float: left;
+    background-color: lightpink;
+    width: 500px;
+    height: 700px;
+}
+.child2{
+    float: right;
+    background-color: lightseagreen;
+    width: 700px;
+    height: 700px;
+}
