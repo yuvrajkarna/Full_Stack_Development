@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dental{
+    color: white;
+    padding-left: 60px;
+}
+.parent{
+    margin: 10px;
+    width: 1500px;
+    height: 5000px;
+}
+.nav{
+    height: 100px;
+    width: 1500px;
+}
+.nav1{
+    float: left;
+}
+.nav1 h1{
+    margin-left: 100px;
+    color: white;
+}
+.nav2{
+    float: right;
+    margin-right: 10px;
+}
+.nav2>p{
+    margin-right: 80px;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.doc1{
+    width: 600px;
+    height: 560px;
+    margin-left: 150px;
+    background-color: #f2f2f2;
+    display: inline;
+    /* mix-blend-mode: screen; */
+}
+.page1{
+    background-color: lightseagreen;
+}
+.maindoctor{
+    width: 1500px;
+    height: 600px;
+}
+.doctorImg{
+    width: 760px;
+    height: 560px;
+    float: left;
+    /* mix-blend-mode: screen; */
+    /* background-color: aqua; */
+}
+.doctorText{
+    width: 260px;
+    height: 300px;
+    margin-top: 100px;
+    margin-right: 480px;
+    float: right;
+}
+.contactUs{
+    background-color: white;
+    color: lightseagreen;
+    width: 110px;
+    height: 38px;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+.contactUs>p{
+    text-align: center;
+    font-size: 18px;
+}
+.simpleheadline{
+    width: 1500px;
+    height: 320px;
+}
+
+.simpleheadline1{
+    float: left;
+    width: 375px;
+    height: 320px;
+    background-color: rgb(33, 130, 69);
+}
+.simpleheadline2{
+    float: left;
+    width: 375px;
+    height: 320px;
+    background-color: rgb(12, 117, 96);
+}
+.simpleheadline3{
+    float: left;
+    width: 375px;
+    height: 320px;
+    background-color: rgb(13, 183, 180);
+}
+.simpleheadline4{
+    float: left;
+    width: 375px;
+    height: 320px;
+    background-color: rgb(92, 141, 247);
+}
+
+.headelineh1{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+.headlinep{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    color: #f2f2f2;
+}
+.learnmore{
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #f2f2f2;
+}
+
+.page2{
+    width: 1500px;
+    height: 380px;
+    background-color: whitesmoke;
+}
+.textBox{
+    width: 600px;
+    height: 260px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-family: cursive;
+    font-style: italic;
+    opacity: 0.75;
+}
+
+.headingTextBox{
+    width: 600px;
+    height: 260px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.textBox>p{
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: left;
+}
+.headingTextBox>h1{
+    margin-left: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+.headingTextBox>p{
+    margin-left: 10px;
+    text-align: left;
+}
+
+.doctorText>h1{
+    color: white;
+}
+.doctorText>p{
+    color: white;
+}
+
+
+/* page3 */
+
+.page3{
+    height: 600px;
+    width: 1500px;
+    background-color: lavender;
+
+}
+
+.page3TextPart{
+    float: left;
+    width: 500px;
+    height: 450px;
+    margin-left: 150px;
+    margin-top: 100px;
+    /* background-color: whitesmoke; */
+    /* border: 1px solid green; */
+}
+
+.page3TextPart>h1{
+    margin-left: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+.page3TextPart>p{
+    margin-left: 10px;
+    text-align: left;
+}
+.page3ImgPart{
+    float: left;
+    margin-left: 10px;
+    width: 800px;
+    height: 450px;
+    margin-top: 100px;
+}
+.topimg{
+    width: 800px;
+    height: 225px;
+    /* background-color: blue; */
+}
+.bottomimg{
+    width: 800px;
+    height: 225px;
+    /* background-color: red; */
+}
+.img1{
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.img2{
+    width: 300px;
+    height: 210px;
+    margin-top: 5px;
+    float: left;
+}
+
+.img3{
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.img4{
+    width: 300px;
+    height: 220px;
+    float: left;
+}
+.learnmoreAgain{
+    background-color: lightseagreen;
+    color: white;
+    font-size: 19px;
+}
+
+/* page4 */
+
+.page4{
+    height: 500px;
+    width: 1500px;
+    background-color: whitesmoke;
+
+}
+.page4Title{
+    height: 130px;
+    width: 1500px;
+    /* background-color: blueviolet; */
+}
+.page4Title>h1{
+    padding-top: 25px;
+    margin-left: 500px;
+}
+.page4Title>p{
+    margin-left: 350px;
+}
+.page4Box{
+    width: 1500px;
+    height: 400px;
+    /* background-color: red; */
+}
+.box1{
+    height:400px;
+    float: left;
+    width: 400px;
+    margin-left: 130px;
+    /* background-color: beige; */
+}
+
+.box2{
+    height:400px;
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+    /* background-color: goldenrod; */
+}
+.box3{
+    height:400px;
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+    /* background-color: pink; */
+}
+.iconStyle{
+    text-align: center;
+    font-size: 40px; 
+    margin: 20px 84px 10px 130px; 
+    background-color: lightseagreen;
+    padding: 19px 19px 19px 19px; 
+    color: white; 
+    border-radius: 50%;
+}
+
+.box1 p{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box2 p{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box3 p{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.box1 h1{
+    margin-left: 20px;
+}
+
+.box2 h1{
+    margin-left: 20px;
+}
+
+.box3 h1{
+    margin-left: 20px;
+}
+
+
+/* page5 */
+.page5{
+    height: 600px;
+    width: 1500px;
+    background-color: lavender;
+
+}
+
+.page5TextPart{
+    float: left;
+    width: 500px;
+    height: 450px;
+    margin-left: 150px;
+    margin-top: 70px;
+    /* background-color: whitesmoke; */
+    /* border: 1px solid green; */
+}
+
+.page5TextPart>h1{
+    margin-left: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.page5TextPart>p{
+    margin-left: 10px;
+    text-align: left;
+}
+
+.page5ImgPart{
+    float: left;
+    width: 500px;
+    height: 450px;
+    margin-left: 15px;
+    margin-top: 60px;
+}
+.bigimg1Class{
+    width: 630px;
+    height: 470px;
+}
+
+.page6{
+    height: 800px;
+    width: 1500px;
+}
+
+.page6Haeding{
+    height: 100px;
+    width: 1500px;
+}
+.page6Haeding h1{
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.page6Haeding p{
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.page6img{
+    height: 600px;
+    width: 1500px;
+    /* background-color: blanchedalmond; */
+}
+.page6box1{
+    float: left;
+    width: 400px;
+    height: 500px;
+    margin-top :40px;
+    margin-left: 150px;
+    /* background-color: violet; */
+}
+.page6box2{
+    float: left;
+    width: 400px;
+    height: 560px;
+    margin-top :10px;
+    margin-left: 10px;
+    /* background-color: lightskyblue; */
+}
+.page6box3{
+    float: left;
+    width: 400px;
+    height: 520px;
+    margin-top :30px;
+    margin-left: 10px;
+    /* background-color: lightgoldenrodyellow; */
+}
+.boximg{
+    width: 400px;
+    height: 400px;
+}
+.boxtext{
+    width: 400px;
+    height: 120px;
+}
+.boximg img{
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    height: 380px;
+}
+.boxtext h1{
+    margin: 20px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.boxtext p{
+    margin-right: 10px;
+}
+.page7{
+    width: 1500px;
+    height: 120px;
+    background-color: lightseagreen;
+}
+.page7icon{
+    float: left;
+    width: 400px;
+    height: 40px;
+    margin-left: 120px;
+    margin-right: 200px;
+    padding-top: 45px;
+    /* background-color: antiquewhite; */
+    
+}
+.page7icon i{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+}
+.blankBox1{
+    float: left;
+    height: 35px;
+    width: 260px;
+    margin-top: 45px;
+    background-color: white;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius:16px;
+    border-bottom-left-radius: 16px;
+}
+.addleftmargin{
+    margin-left: 10px;
+}
+.page7submit{
+    float: left;
+    height: 35px;
+    width: 120px;
+    margin-top: 45px;
+    margin-left: 15px;
+    background-color: white;
+    
+}
+.page7submit p{
+    margin: 8px ;
+    margin-left: 34px;
+    color: lightseagreen;
+}
+.white{
+    background-color: lightseagreen;
+    color: white;
+}
+
+/* page8 */
+.page8{
+    height: 600px;
+    width: 1500px;
+    background-color: white;
+}
+.ourTeam{
+    height: 120px;
+    width: 1500px;
+    /* background-color: bisque; */
+}
+.ourTeam h1{
+    margin-top: 20px;
+    margin-left: 600px;
+}
+.ourTeam p{
+    margin-top: 20px;
+    margin-left: 350px;
+}
+.teamimg{
+    height: 600px;
+    width: 1500px;
+}
+.profile1{
+    float: left;
+    width: 600px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 140px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    /* background-color: bisque; */
+}
+
+.profile2{
+    float: left;
+    width: 600px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    /* background-color: bisque; */
+}
+.profile1Img{
+    float: left;
+    width: 300px;
+    height:400px;
+}
+.profile1Pic{
+    width: 300px;
+    height:300px;
+}
+.profile1text p{
+    margin-top: 80px;
+    text-align: right;
+}
+
+.profile1text h2{
+    margin-top: 10px;
+    text-align: right;
+}
+.addmore{
+    font-size: 35px;
+    color: lightseagreen;
+    background-color: white;
+}
+.addmore1{
+    margin-left: 160px;
+}
+
+.addmore2{
+    margin-left: 5px;
+}
+.addmore3{
+    margin-left: 5px;
+}
+
+/* page9 */
+.page9{
+    width: 1500px;
+    height: 600px;
+    background-color: whitesmoke;
+}
+.addleftmargin2{
+    margin-left: 130px;
+}
+
+/* page10 */
+.changebackgroundcolor{
+    background-color: white;
+    height: 200px;
+}
+.color1{
+    color: black;
+    margin-left: 80px;
+}
+
+.page11{
+    width: 1500px;
+    height: 70px;
+    background-color: white;
+}
+.changeIcon{
+    background-color: white;
+    color: black;
+}
+.page11icon{
+    margin-left: 700px;
+    font-size: 25px;
+
+}
+
+.page12{
+    height: 120px;
+    width: 1500px;
+    background-color: black;
+}
+.Addcolor1{
+    padding-top: 20px;
+    display: inline;
+    color: lightseagreen;
+}
+.addcolor{
+    margin-top: 20px;
+    display: inline;
+    color: white;
+}
+.white1{
+    margin-top: 20px;
+    display: inline;
+    color: white;
+    background-color: black;
+}
